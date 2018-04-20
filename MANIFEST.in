@@ -1,0 +1,17 @@
+include setup.py
+
+# C sources
+include src/libwshash/internal.c
+include src/libwshash/sha3.c
+include src/libwshash/util.c
+include src/python/core.c
+
+# Headers
+include src/libwshash/compiler.h
+include src/libwshash/data_sizes.h
+include src/libwshash/endian.h
+include src/libwshash/wshash.h
+include src/libwshash/fnv.h
+include src/libwshash/internal.h
+include src/libwshash/sha3.h
+include src/libwshash/util.h
